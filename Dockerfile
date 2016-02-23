@@ -19,6 +19,6 @@ RUN 	go get -v github.com/revel/revel
 RUN	go get -v github.com/revel/cmd/revel
 RUN	go get -v github.com/revel/modules/static/app/controllers
 RUN	go get -v github.com/claytantor/myrevelapp/app
-EXPOSE	9000
+EXPOSE	80
 CMD	["revel","run","github.com/claytantor/myrevelapp"]
 
